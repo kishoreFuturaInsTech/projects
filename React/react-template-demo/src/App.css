@@ -1,0 +1,11 @@
+.colorpalette {
+  background-color: rgb(235, 29, 54);
+  background-color: rgb(250, 148, 148);
+  background-color: rgb(207, 210, 207);
+  background-color: rgb(245, 237, 220);
+}
+
+body {
+  background-color: rgb(245, 237, 220) !important;
+  height: 200vh;
+}

@@ -1,0 +1,23 @@
+package practice;
+
+class Person {
+	String name;
+	int age;
+	
+	Person(name){
+		this.name=name;
+	}
+
+}
+
+public class Practice {
+
+	public static void main(String[] args) {
+
+		Person kishore = new Person("Kishore");
+
+
+
+	}
+
+}

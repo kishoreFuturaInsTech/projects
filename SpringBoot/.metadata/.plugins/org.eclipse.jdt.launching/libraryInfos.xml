@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<libraryInfos>
+    <libraryInfo home="/home/kishore/Apps/SpringToolSuite4/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_17.0.4.v20221004-1257" version="17.0.4.1"/>
+    <libraryInfo home="/home/kishore/Apps/SpringToolSuite4/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_17.0.4.v20221004-1257/jre" version="17.0.4.1"/>
+    <libraryInfo home="/usr" version="19.0.1"/>
+    <libraryInfo home="/home/kishore" version="19.0.1"/>
+    <libraryInfo home="/home/kishore/App/sts-4.16.1.RELEASE/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_17.0.4.v20221004-1257" version="17.0.4.1"/>
+    <libraryInfo home="/home/kishore/App/sts-4.16.1.RELEASE/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_17.0.4.v20221004-1257/jre" version="17.0.4.1"/>
+    <libraryInfo home="/usr/java/latest" version="19.0.1"/>
+    <libraryInfo home="/usr/java/latest/bin" version="19.0.1"/>
+    <libraryInfo home="/" version="19.0.1"/>
+</libraryInfos>

@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: grid;
+  /* grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr)); */
+  grid-template-columns: 20rem 20rem 20rem;
+  justify-content: center;
+  grid-template-areas:
+    "box5 . box3"
+    "box4 box4 box2"
+    "box1 box1 box1";
+}
+
+.box {
+  padding: 2rem;
+}
+
+.box1 {
+  background-color: blueviolet;
+  grid-area: box1;
+}
+
+.box2 {
+  background-color: cadetblue;
+  grid-area: box2;
+  z-index: 1;
+}
+
+.box3 {
+  background-color: crimson;
+  grid-area: box3;
+}
+
+.box4 {
+  background-color: green;
+  grid-area: box4;
+  z-index: 1;
+}
+
+.box5 {
+  background-color: hotpink;
+  grid-area: box5;
+}

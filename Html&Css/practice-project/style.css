@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Great Vibe";
+  src: url("./Fonts/Great_Vibes/GreatVibes-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Poppins Regular";
+  src: url("./Fonts/Poppins/Poppins-Regular.ttf");
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Poppins Regular";
+  font-size: calc(1rem + 1vw);
+}
+
+.navheader {
+  min-height: 10vh;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.navlist {
+  display: flex;
+  width: 90%;
+  margin: auto;
+}
+
+#logo {
+  flex: 2 1 40rem;
+  align-items: center;
+}
+
+.navlist ul {
+  display: flex;
+  flex: 1 1 40rem;
+  list-style: none;
+  align-items: center;
+  justify-content: space-around;
+}

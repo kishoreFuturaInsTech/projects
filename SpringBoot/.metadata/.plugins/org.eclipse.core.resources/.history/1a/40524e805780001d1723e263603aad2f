@@ -1,0 +1,15 @@
+package practice;
+class Person{
+	static String name="Kishore";
+	static void display() {
+		System.out.println("Kishore from");
+	}
+}
+
+public class Practice {
+
+	public static void main(String[] args) {
+		System.out.println(Person.display());
+	}
+
+}

@@ -1,0 +1,18 @@
+package practice;
+
+class Person{
+	String name;
+	int age;
+	
+}
+
+public class Practice {
+	
+	public static void main(String[] args) {
+		
+		
+		
+		
+	}
+
+}

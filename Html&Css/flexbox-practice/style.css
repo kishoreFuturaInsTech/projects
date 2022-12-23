@@ -1,0 +1,117 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: calc(1rem + 1vw);
+}
+
+.navheader {
+  background-color: rgb(221, 2, 46);
+  box-shadow: 0 0.5rem 15px crimson;
+  position: relative;
+}
+
+.navlist {
+  min-height: 10vh;
+  display: flex;
+  color: blanchedalmond;
+  justify-content: space-around;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+  padding: 1rem;
+  flex-wrap: wrap;
+}
+
+#logo {
+  flex: 2 1 40rem;
+  font-family: "Rubik Microbe", cursive;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.navlist ul {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  justify-content: space-around;
+  list-style: none;
+  flex: 1 1 40rem;
+}
+
+.section1 {
+  display: flex;
+  min-height: 90vh;
+  background: linear-gradient(RGB(0, 0, 0, 0.9), transparent),
+    url("./images/pexels-acharaporn-kamornboonyarush-1028707.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  gap: 1rem;
+}
+
+.imagecontent {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  align-items: center;
+}
+
+.images {
+  height: 34rem;
+  flex: 1 1 400rem;
+}
+
+.title {
+  margin: auto;
+  width: 100%;
+  text-align: center;
+  color: white;
+  text-align: center;
+
+  font-weight: bolder;
+  font-family: "Great Vibes", cursive;
+  font-size: 7rem;
+  text-decoration: underline;
+  padding: 2rem;
+  transition: 1s;
+  box-sizing: border-box;
+}
+.title:hover {
+  color: greenyellow;
+  transform: scale(1.1);
+  width: 1380px;
+}
+
+p {
+  color: white;
+  font-family: "Great Vibes", cursive;
+  font-size: 5rem;
+}
+
+.housewithu {
+  position: absolute;
+  top: 60%;
+  left: 0%;
+}
+
+.pinkyfinger {
+  position: absolute;
+  top: 60%;
+  left: 38%;
+  opacity: 0.8;
+}
+
+.ourbaby {
+  position: absolute;
+  right: 0%;
+  top: 60%;
+}

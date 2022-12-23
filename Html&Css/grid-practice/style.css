@@ -1,0 +1,86 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Poppins Regular";
+  src: url(./fonts/Poppins/Poppins-Regular.ttf);
+}
+
+html {
+  font-size: 62.5%;
+  --default-font-size: 2rem;
+}
+
+body {
+  font-size: calc(var(--default-font-size) + 1vw);
+  font-family: "Poppins Regular";
+}
+
+.navheader {
+  min-height: 10vh;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
+  position: relative;
+  z-index: 2;
+}
+
+.navlist {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  align-items: center;
+  padding: 1rem 0rem;
+}
+
+.navlist ul {
+  display: flex;
+  list-style: none;
+  flex: 1 1 40rem;
+  justify-content: space-around;
+}
+
+.content {
+  display: grid;
+  /* grid-template-columns: repeat(3, 1fr); */
+  grid-template-columns: repeat(auto-fill, minmax(50rem, 1fr));
+  gap: 2rem;
+  grid-auto-rows: minmax(500px, auto);
+  min-height: 90vh;
+}
+
+.section1 {
+  background: url(./images/pexels-asad-photo-maldives-3155666.jpg);
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+  color: black;
+  grid-column: span 2;
+}
+.section2 {
+  background: url(./images/pexels-errin-casano-2356045.jpg);
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+  color: black;
+  grid-row: span 2;
+}
+.section3 {
+  background: url(./images/pexels-jaime-reimer-2662116.jpg);
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+  color: white;
+}
+.section4 {
+  background: url(./images/pexels-stijn-dijkstra-2499699.jpg);
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+  color: white;
+}
+
+#logo {
+  flex: 1 1 40rem;
+}

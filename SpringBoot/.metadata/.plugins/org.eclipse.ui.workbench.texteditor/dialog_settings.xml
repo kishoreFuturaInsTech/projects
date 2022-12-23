@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="selection" value=""/>
+		<item key="wrap" value="true"/>
+		<item key="casesensitive" value="false"/>
+		<item key="wholeword" value="false"/>
+		<item key="incremental" value="false"/>
+		<item key="isRegEx" value="false"/>
+		<list key="findhistory">
+			<item value="System.out."/>
+			<item value="ipcaSurrender"/>
+			<item value="getActiveByPolicyNo"/>
+			<item value="calculateBonus"/>
+			<item value="Address"/>
+			<item value="Service."/>
+			<item value="Gsv"/>
+			<item value="GsvService."/>
+			<item value="AddressService"/>
+			<item value="-address"/>
+			<item value="GsvRepo."/>
+			<item value="transaction_pas"/>
+			<item value="TransactionPas"/>
+		</list>
+		<list key="replacehistory">
+			<item value="Gsv"/>
+			<item value="gsvService"/>
+			<item value=""/>
+			<item value="gsvService."/>
+			<item value="GsvService"/>
+			<item value="-gsv"/>
+			<item value="gsvRepository."/>
+			<item value="surrender_transaction_pas"/>
+			<item value="SurrenderTransactionPas"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="782"/>
+		<item key="DIALOG_Y_ORIGIN" value="209"/>
+		<item key="DIALOG_WIDTH" value="357"/>
+		<item key="DIALOG_HEIGHT" value="435"/>
+		<item key="DIALOG_FONT_NAME" value="1|Noto Sans|12.0|0|GTK|1|"/>
+	</section>
+</section>

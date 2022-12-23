@@ -1,0 +1,25 @@
+package practice;
+
+class Person{
+	String name;
+	int age;
+	
+	
+}
+
+public class Practice {
+
+	public static void main(String[] args) {
+	
+		Person kishore = new Person();
+		
+		kishore.name="Kishore";
+		
+		System.out.println(kishore.name);
+		
+		Person sandhiya = new Person();
+		sandhiya.name="Sandhiya";
+		sandhiya.age=22;
+	}
+
+}

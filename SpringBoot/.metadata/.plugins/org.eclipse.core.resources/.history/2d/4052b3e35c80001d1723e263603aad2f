@@ -1,0 +1,21 @@
+package practice;
+
+class Person{
+	String name;
+	String age;
+	
+	
+}
+
+public class Practice {
+
+	public static void main(String[] args) {
+	
+		Person kishore = new Person();
+		
+		kishore.name="Kishore";
+		
+		System.out.println(kishore.name);
+	}
+
+}

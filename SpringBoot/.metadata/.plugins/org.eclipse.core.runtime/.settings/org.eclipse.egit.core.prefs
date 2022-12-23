@@ -1,0 +1,4 @@
+GitRepositoriesView.GitDirectories=/home/kishore/Projects/SpringBoot/Purple/.git\:/home/kishore/Projects/SpringBoot/ipca/.git\:
+GitRepositoriesView.GitDirectories.relative=Purple/.git\:ipca/.git\:
+core_autoIgnoreDerivedResources=false
+eclipse.preferences.version=1

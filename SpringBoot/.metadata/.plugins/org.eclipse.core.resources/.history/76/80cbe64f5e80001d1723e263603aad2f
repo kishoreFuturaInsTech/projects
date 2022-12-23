@@ -1,0 +1,20 @@
+package practice;
+
+class Person{
+	
+	String name = "Sandhiya";
+	
+}
+
+public class Practice {
+
+	public static void main(String[] args) {
+	
+//		Person sandhiya = new Person("Sandhiya",21);
+		
+		
+		
+		
+	}
+
+}

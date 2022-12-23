@@ -1,0 +1,18 @@
+package practice;
+
+
+
+public class Practice {
+
+	public static void main(String[] args) {
+	
+		Person kishore = new Person();
+		
+		System.out.println(kishore.name);
+	
+		
+		
+		
+	}
+
+}

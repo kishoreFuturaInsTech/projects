@@ -1,0 +1,16 @@
+package practice;
+
+class Person{
+	String name;
+	String age;
+	
+	
+}
+
+public class Practice {
+
+	public static void main(String[] args) {
+	
+	}
+
+}
